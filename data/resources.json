@@ -1,0 +1,13 @@
+[
+  {"code":"CJ","name":"Chris Johnson (Project Manager)","standard_rate":75,"overtime_rate":75},
+  {"code":"RN","name":"Ryan Neff (Functional Lead)","standard_rate":75,"overtime_rate":75},
+  {"code":"SL","name":"Stacy Lyle (Functional Analyst)","standard_rate":75,"overtime_rate":75},
+  {"code":"RB","name":"Rick Burke (Infrastructure Lead)","standard_rate":75,"overtime_rate":75},
+  {"code":"MS","name":"Marc Sanders (Development Lead)","standard_rate":75,"overtime_rate":75},
+  {"code":"D1","name":"Developer 1 (TBD)","standard_rate":165,"overtime_rate":230},
+  {"code":"SV","name":"Sanjay Vohra (DBA)","standard_rate":75,"overtime_rate":75},
+  {"code":"KS","name":"Kara Siposki (Test Lead)","standard_rate":75,"overtime_rate":75},
+  {"code":"TE","name":"Todd Eliason (Tester)","standard_rate":75,"overtime_rate":75},
+  {"code":"D2","name":"Developer 2 (TBD)","standard_rate":175,"overtime_rate":250},
+  {"code":"D3","name":"Developer 3 (TBD)","standard_rate":175,"overtime_rate":250}
+]

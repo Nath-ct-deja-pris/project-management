@@ -1,0 +1,60 @@
+﻿ID;WBS;Tâche;Durée (j ouvrés);Travail (h);Début;Fin;Prédécesseurs (notation EN);Nivellement (j écoulés);Marge totale (j);Critique;Coût travail (USD);Capital (USD);Coût total (USD);Ressources
+1;1;Overall Project;127.0;8488.8;2003-05-26T08:00:00;2003-11-18T17:00:00;;0;0.0;Oui;844980.0;98500.0;943480.0;
+2;1.1;Project Management;127.0;1016.0;2003-05-26T08:00:00;2003-11-18T17:00:00;;0;0.0;Oui;76200.0;0.0;76200.0;
+3;1.1.1;Manage Project;127.0;1016.0;2003-05-26T08:00:00;2003-11-18T17:00:00;59FF;0;0.0;Oui;76200.0;0.0;76200.0;Chris Johnson (Project Manager) [100%]
+4;1.2;System Requirements;13.0;280.0;2003-05-26T08:00:00;2003-06-11T17:00:00;;0;1.0;Non;21000.0;0.0;21000.0;
+5;1.2.1;Gather Business Requirements;4.0;64.0;2003-05-26T08:00:00;2003-05-29T17:00:00;;0;1.0;Non;4800.0;0.0;4800.0;Ryan Neff (Functional Lead) [100%], Stacy Lyle (Functional Analyst) [100%]
+6;1.2.2;Design Business Process Flows;2.0;32.0;2003-05-30T08:00:00;2003-06-02T17:00:00;5;0;1.0;Non;2400.0;0.0;2400.0;Ryan Neff (Functional Lead) [100%], Stacy Lyle (Functional Analyst) [100%]
+7;1.2.3;Finalize Technical Requirements;6.0;48.0;2003-05-26T08:00:00;2003-06-02T17:00:00;;0;12.0;Non;3600.0;0.0;3600.0;Rick Burke (Infrastructure Lead) [100%]
+8;1.2.4;Create Operational Requirements;5.0;120.0;2003-06-03T08:00:00;2003-06-09T17:00:00;5,6;0;1.0;Non;9000.0;0.0;9000.0;Ryan Neff (Functional Lead) [100%], Stacy Lyle (Functional Analyst) [100%], Rick Burke (Infrastructure Lead) [100%]
+9;1.2.5;Identify Technical Infrastructure Needs;2.0;16.0;2003-06-10T08:00:00;2003-06-11T17:00:00;7,8;0;7.0;Non;1200.0;0.0;1200.0;Rick Burke (Infrastructure Lead) [100%]
+10;1.3;Software Requirements;20.0;320.0;2003-06-10T08:00:00;2003-07-07T17:00:00;;0;0.0;Oui;24000.0;0.0;24000.0;
+11;1.3.1;Create Functional Requirements;20.0;208.0;2003-06-10T08:00:00;2003-07-07T17:00:00;5,6,8;0;0.0;Oui;15600.0;0.0;15600.0;
+12;1.3.1.1;Capture Customer Profile;4.0;32.0;2003-06-10T08:00:00;2003-06-13T17:00:00;;0;9.0;Non;2400.0;0.0;2400.0;Ryan Neff (Functional Lead) [100%]
+13;1.3.1.2;View and Search Product Catalog;6.0;48.0;2003-06-16T08:00:00;2003-06-23T17:00:00;;5;0.0;Oui;3600.0;0.0;3600.0;Ryan Neff (Functional Lead) [100%]
+14;1.3.1.3;Updating and Calculating Shopping Cart;3.0;24.0;2003-06-24T08:00:00;2003-06-26T17:00:00;13;0;0.0;Oui;1800.0;0.0;1800.0;Ryan Neff (Functional Lead) [100%]
+15;1.3.1.4;Taking Payments;6.0;48.0;2003-06-16T08:00:00;2003-06-23T17:00:00;;6;3.0;Non;3600.0;0.0;3600.0;Stacy Lyle (Functional Analyst) [100%]
+16;1.3.1.5;Submit Order;4.0;32.0;2003-06-27T08:00:00;2003-07-02T17:00:00;12,13,14,15;0;0.0;Oui;2400.0;0.0;2400.0;Ryan Neff (Functional Lead) [100%]
+17;1.3.1.6;Check Order History & Order Status;3.0;24.0;2003-07-03T08:00:00;2003-07-07T17:00:00;16;0;0.0;Oui;1800.0;0.0;1800.0;Ryan Neff (Functional Lead) [100%]
+18;1.3.2;Create Data Requirements;3.0;24.0;2003-06-24T08:00:00;2003-06-26T17:00:00;12,13;0;7.0;Non;1800.0;0.0;1800.0;Stacy Lyle (Functional Analyst) [100%]
+19;1.3.3;Create ERP Interface Requirements;7.0;56.0;2003-06-27T08:00:00;2003-07-07T17:00:00;16SS;0;0.0;Oui;4200.0;0.0;4200.0;Stacy Lyle (Functional Analyst) [100%]
+20;1.3.4;Create User Interface Requirements;4.0;32.0;2003-06-10T08:00:00;2003-06-13T17:00:00;11SS;0;16.0;Non;2400.0;0.0;2400.0;Stacy Lyle (Functional Analyst) [100%]
+21;1.4;Detailed Design;22.0;776.0;2003-07-08T08:00:00;2003-08-06T17:00:00;10;0;0.0;Oui;74040.0;0.0;74040.0;
+22;1.4.1;Design Capture Customer Profile Pages & Components;9.0;108.0;2003-07-08T08:00:00;2003-07-18T17:00:00;;0;3.0;Non;8100.0;0.0;8100.0;Marc Sanders (Development Lead) [100%], Ryan Neff (Functional Lead) [50.0%]
+23;1.4.2;Design View and Search Product Catalog Pages & Components;9.0;108.0;2003-07-08T08:00:00;2003-07-18T17:00:00;;0;0.0;Oui;14580.0;0.0;14580.0;Developer 1 (TBD) [100%], Ryan Neff (Functional Lead) [50.0%]
+24;1.4.3;Design Updating and Calculating Shopping Cart;3.0;48.0;2003-07-21T08:00:00;2003-07-23T17:00:00;23;0;0.0;Oui;5760.0;0.0;5760.0;Developer 1 (TBD) [100%], Ryan Neff (Functional Lead) [100%]
+25;1.4.4;Design Taking Payments Pages & Components;3.0;48.0;2003-07-21T08:00:00;2003-07-23T17:00:00;;11;0.0;Oui;3600.0;0.0;3600.0;Marc Sanders (Development Lead) [100%], Stacy Lyle (Functional Analyst) [100%]
+26;1.4.5;Design Submit Order Pages & Components;8.0;128.0;2003-07-24T08:00:00;2003-08-04T17:00:00;22,23,24,25;0;2.0;Non;9600.0;0.0;9600.0;Marc Sanders (Development Lead) [100%], Ryan Neff (Functional Lead) [100%]
+27;1.4.6;Design Check Order History & Order Status Pages & Components;2.0;32.0;2003-08-05T08:00:00;2003-08-06T17:00:00;26;0;2.0;Non;2400.0;0.0;2400.0;Marc Sanders (Development Lead) [100%], Ryan Neff (Functional Lead) [100%]
+28;1.4.7;Design Logical & Physical Data Model;9.0;144.0;2003-07-08T08:00:00;2003-07-18T17:00:00;;0;0.0;Oui;10800.0;0.0;10800.0;Sanjay Vohra (DBA) [100%], Stacy Lyle (Functional Analyst) [100%]
+29;1.4.8;Design ERP Interface;10.0;160.0;2003-07-24T08:00:00;2003-08-06T17:00:00;22,23,24,25;0;0.0;Oui;19200.0;0.0;19200.0;Developer 1 (TBD) [100%], Stacy Lyle (Functional Analyst) [100%]
+30;1.5;Test Planning;28.0;448.0;2003-07-31T08:00:00;2003-09-08T17:00:00;;0;0.0;Oui;33600.0;0.0;33600.0;
+31;1.5.1;Gather Testing Requirements;7.0;112.0;2003-07-31T08:00:00;2003-08-08T17:00:00;11;23;0.0;Oui;8400.0;0.0;8400.0;Kara Siposki (Test Lead) [100%], Todd Eliason (Tester) [100%]
+32;1.5.2;Create System Test Plan & Test Cases;10.0;160.0;2003-08-11T08:00:00;2003-08-22T17:00:00;31,21;0;0.0;Oui;12000.0;0.0;12000.0;Kara Siposki (Test Lead) [100%], Todd Eliason (Tester) [100%]
+33;1.5.3;Write System Test Scripts;11.0;176.0;2003-08-25T08:00:00;2003-09-08T17:00:00;32;0;0.0;Oui;13200.0;0.0;13200.0;Kara Siposki (Test Lead) [100%], Todd Eliason (Tester) [100%]
+34;1.6;Technical Infrastructure;104.0;868.8;2003-06-12T08:00:00;2003-11-04T17:00:00;;0;7.0;Non;65160.0;98500.0;163660.0;
+35;1.6.1;Create Development Environment;20.0;160.0;2003-06-12T08:00:00;2003-07-09T17:00:00;9;0;7.0;Non;12000.0;98500.0;110500.0;Rick Burke (Infrastructure Lead) [100%]
+36;1.6.2;Create Testing Environment;38.0;273.6;2003-07-10T08:00:00;2003-09-01T17:00:00;35;0;10.0;Non;20520.0;0.0;20520.0;Rick Burke (Infrastructure Lead) [90.0%]
+37;1.6.3;Support Development Environment;38.0;30.4;2003-07-10T08:00:00;2003-09-01T17:00:00;35;0;56.0;Non;2280.0;0.0;2280.0;Rick Burke (Infrastructure Lead) [10.0%]
+38;1.6.4;Support Testing Environment & Deployment;46.0;368.0;2003-09-02T08:00:00;2003-11-04T17:00:00;36;0;10.0;Non;27600.0;0.0;27600.0;Rick Burke (Infrastructure Lead) [100%]
+39;1.6.5;Support Database;46.0;36.8;2003-09-02T08:00:00;2003-11-04T17:00:00;47;0;10.0;Non;2760.0;0.0;2760.0;Sanjay Vohra (DBA) [10.0%]
+40;1.7;Development & Unit Test;36.0;1180.0;2003-07-21T08:00:00;2003-09-08T17:00:00;35;0;0.0;Oui;151060.0;0.0;151060.0;
+41;1.7.1;Build Capture Customer Profile Pages & Components;13.0;104.0;2003-07-21T08:00:00;2003-08-06T17:00:00;22;0;6.0;Non;18200.0;0.0;18200.0;Developer 2 (TBD) [100%]
+42;1.7.2;Build View and Search Product Catalog Pages & Components;12.0;96.0;2003-07-21T08:00:00;2003-08-05T17:00:00;23;0;0.0;Oui;16800.0;0.0;16800.0;Developer 3 (TBD) [100%]
+43;1.7.3;Build Updating and Calculating Shopping Cart;7.0;56.0;2003-08-06T08:00:00;2003-08-14T17:00:00;24,42;0;0.0;Oui;9800.0;0.0;9800.0;Developer 3 (TBD) [100%]
+44;1.7.4;Build Taking Payments Pages & Components;6.0;48.0;2003-08-07T08:00:00;2003-08-14T17:00:00;25;14;0.0;Oui;8400.0;0.0;8400.0;Developer 2 (TBD) [100%]
+45;1.7.5;Build Submit Order Pages & Components;12.0;192.0;2003-08-15T08:00:00;2003-09-01T17:00:00;26,41,42,43,44;0;0.0;Oui;33600.0;0.0;33600.0;Developer 2 (TBD) [100%], Developer 3 (TBD) [100%]
+46;1.7.6;Build Check Order History & Order Status Pages & Components;6.0;48.0;2003-08-07T08:00:00;2003-08-14T17:00:00;27;0;12.0;Non;3600.0;0.0;3600.0;Marc Sanders (Development Lead) [100%]
+47;1.7.7;Build Logical & Physical Data Model;31.0;124.0;2003-07-21T08:00:00;2003-09-01T17:00:00;28;0;0.0;Oui;9300.0;0.0;9300.0;Sanjay Vohra (DBA) [50.0%]
+48;1.7.8;Build ERP Interface;18.0;144.0;2003-08-07T08:00:00;2003-09-01T17:00:00;29;0;0.0;Oui;23760.0;0.0;23760.0;Developer 1 (TBD) [100%]
+49;1.7.9;Support Development & Assembly Test;23.0;368.0;2003-08-07T08:00:00;2003-09-08T17:00:00;21;0;51.0;Non;27600.0;0.0;27600.0;Ryan Neff (Functional Lead) [100%], Stacy Lyle (Functional Analyst) [100%]
+50;1.8;Testing;47.0;2176.0;2003-08-15T08:00:00;2003-10-20T17:00:00;;0;0.0;Oui;244400.0;0.0;244400.0;
+51;1.8.1;Perform Assembly Testing;17.0;256.0;2003-08-15T08:00:00;2003-09-08T17:00:00;31;0;0.0;Oui;30800.0;0.0;30800.0;
+52;1.8.1.1;Perform Phase 1 Testing;12.0;96.0;2003-08-15T08:00:00;2003-09-01T17:00:00;41,42,43;0;0.0;Oui;7200.0;0.0;7200.0;Marc Sanders (Development Lead) [100%]
+53;1.8.1.2;Perform Phase 2 Testing;5.0;160.0;2003-09-02T08:00:00;2003-09-08T17:00:00;44,45,46,52,47,48;0;0.0;Oui;23600.0;0.0;23600.0;Marc Sanders (Development Lead) [100%], Developer 1 (TBD) [100%], Developer 2 (TBD) [100%], Developer 3 (TBD) [100%]
+54;1.8.2;Perform System Testing;20.0;1280.0;2003-09-09T08:00:00;2003-10-06T17:00:00;51,32,33;0;0.0;Oui;142400.0;0.0;142400.0;Kara Siposki (Test Lead) [100%], Todd Eliason (Tester) [100%], Marc Sanders (Development Lead) [100%], Developer 1 (TBD) [100%], Developer 2 (TBD) [100%], Developer 3 (TBD) [100%], Ryan Neff (Functional Lead) [100%], Stacy Lyle (Functional Analyst) [100%]
+55;1.8.3;Perform Validation Testing;10.0;640.0;2003-10-07T08:00:00;2003-10-20T17:00:00;54;0;0.0;Oui;71200.0;0.0;71200.0;Kara Siposki (Test Lead) [100%], Todd Eliason (Tester) [100%], Marc Sanders (Development Lead) [100%], Developer 1 (TBD) [100%], Developer 2 (TBD) [100%], Developer 3 (TBD) [100%], Ryan Neff (Functional Lead) [100%], Stacy Lyle (Functional Analyst) [100%]
+56;1.9;Deployment;21.0;1424.0;2003-10-21T08:00:00;2003-11-18T17:00:00;50;0;0.0;Oui;155520.0;0.0;155520.0;
+57;1.9.1;Implement System;10.0;640.0;2003-10-21T08:00:00;2003-11-03T17:00:00;;0;0.0;Oui;71200.0;0.0;71200.0;Kara Siposki (Test Lead) [100%], Todd Eliason (Tester) [100%], Marc Sanders (Development Lead) [100%], Developer 1 (TBD) [100%], Developer 2 (TBD) [100%], Developer 3 (TBD) [100%], Ryan Neff (Functional Lead) [100%], Stacy Lyle (Functional Analyst) [100%]
+58;1.9.2;Deploy To Production;1.0;64.0;2003-11-04T08:00:00;2003-11-04T17:00:00;57;0;0.0;Oui;7120.0;0.0;7120.0;Kara Siposki (Test Lead) [100%], Todd Eliason (Tester) [100%], Marc Sanders (Development Lead) [100%], Developer 1 (TBD) [100%], Developer 2 (TBD) [100%], Developer 3 (TBD) [100%], Ryan Neff (Functional Lead) [100%], Stacy Lyle (Functional Analyst) [100%]
+59;1.9.3;Project Wrap-Up;10.0;720.0;2003-11-05T08:00:00;2003-11-18T17:00:00;58;0;0.0;Oui;77200.0;0.0;77200.0;Kara Siposki (Test Lead) [100%], Todd Eliason (Tester) [100%], Marc Sanders (Development Lead) [100%], Developer 1 (TBD) [100%], Developer 2 (TBD) [100%], Developer 3 (TBD) [100%], Ryan Neff (Functional Lead) [100%], Stacy Lyle (Functional Analyst) [100%], Rick Burke (Infrastructure Lead) [100%]

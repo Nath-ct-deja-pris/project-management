@@ -1,0 +1,23 @@
+﻿A&D HIGH TECH — FICHIER MICROSOFT PROJECT
+
+1. Ouvrir Microsoft Project Professionnel (application de bureau Windows).
+2. Fichier > Ouvrir > Parcourir ; choisir XML ou Tous les fichiers.
+3. Ouvrir AD_High_Tech_Project.xml comme nouveau projet.
+4. Fichier > Enregistrer sous > Projet (*.mpp).
+   Ne pas simplement renommer l’extension du XML.
+
+Résultats : début 26/05/2003 ; mise en production 04/11/2003 ;
+clôture 18/11/2003 ; 127 jours ouvrés ; coût total 943 480 USD,
+dont main-d’œuvre 844 980 USD et matériel 98 500 USD.
+
+Le fichier suit les 59 lignes du cas, avec 11 ressources et 103 affectations.
+Calendrier 8 h/j, lundi–vendredi, sans jours fériés ; charges en jours-personne.
+Les coûts de planification déjà engagés sont exclus.
+
+La synthèse PDF répond aux cinq questions et décrit les hypothèses,
+les chemins critiques et les recommandations. Le Gantt PDF et le CSV
+aident au contrôle du planning. Coût1 = main-d’œuvre ; Coût2 = capital.
+
+Le XML a été contrôlé par schéma MSPDI et relu avec MPXJ 16.10.0.
+Microsoft Project n’étant pas installé ici, l’ouverture dans son interface
+et l’enregistrement final en MPP restent à effectuer sur votre ordinateur.
